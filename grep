@@ -1,0 +1,286 @@
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ update && upgrade
+No command 'update' found, did you mean:
+ Command 'pupdate' from package 'pbuilder-scripts' (universe)
+ Command 'uupdate' from package 'devscripts' (main)
+ Command 'zupdate' from package 'zutils' (universe)
+ Command 'lupdate' from package 'qtchooser' (main)
+ Command 'xupdate' from package 'libxml-xupdate-libxml-perl' (universe)
+update: command not found
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ git
+The program 'git' is currently not installed. To run 'git' please ask your administrator to install the package 'git'
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep Aiea name
+grep: name: No such file or directory
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
+name.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
+name.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ clear
+
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
+name.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ nano text
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
+name.txt  text
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep yash text
+yash
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep Aiea name.txt
+Aiea
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i tejaswini grep
+grep: grep: No such file or directory
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i tejaswini in.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i yash in.txt
+Yash
+Suyash
+Yashaswi
+Shreyash
+Yashika
+Yashveer
+Yashaswini
+Yashwanth
+Yashwant
+Yashovardhan
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i kamlesh in.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i tejas in.txt
+Tejas
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i khush in.txt
+Khushi
+Khushboo
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i sayali in.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -c yash  in.txt
+2
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -c Yash  in.txt
+8
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep er in.txt
+Neeraj
+Dheeraj
+Prerna
+Sameer
+Vertika
+Sudheer
+Jahangeer
+Yeram
+Jashveer
+Naseer
+Shamseer
+Yashveer
+Rupinder
+Veerendra
+Grover
+Tanveer
+Hershit
+Cherry
+Haider
+Rajveer
+Ravinderpreet
+Inderveer
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -c er  in.txt
+22
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -w Yash in.txt
+Yash
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -w ayush in.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -e anant in.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -e anant-e yash in.txt
+grep: yash: No such file or directory
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ egrep "Atul|Anshu" in.txt
+Anshu
+Atul
+Anshuman
+Anshul
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -n Atul in.txt
+127:Atul
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -n -i Atul in.txt
+127:Atul
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -n yash in.txt
+193:Suyash
+318:Shreyash
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep "^T" in.txt
+Tushar
+Tanya
+Tamanna
+Tharun
+Tarun
+Tuhin
+Tanay
+Tanu
+Tanishq
+Thaanya
+Tejas
+Toshit
+Tavish
+Tarushi
+Tripti
+Tuhina
+Talin
+Tahreem
+Tanupriya
+Tarique
+Tariq
+Tabish
+Tanvi
+Tanishta
+Tulshidas
+Tanveer
+Thirukural
+Taramla
+Tanpreet
+Tanish
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep "nT$" in.txt
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep "t$" in.txt
+Rohit
+Amit
+Ankit
+Prashant
+Harshit
+Aniket
+Akshat
+Mohit
+Arpit
+Sumit
+Vineet
+Sumeet
+Hemant
+Shashwat
+Abhijeet
+Ajit
+Abhijit
+Udit
+Siddhant
+Rajat
+Navneet
+Jaswant
+Sushant
+Suryakant
+Virat
+Amrit
+Prakhyat
+Saket
+Lalit
+Chahat
+Dushyant
+Nishant
+Vidit
+Anshit
+Meet
+Mudit
+Toshit
+Rishit
+Shukant
+Ronit
+Sanket
+Surjeet
+Yashwant
+Archit
+Gurjot
+Garvit
+Devbrat
+Shrikant
+Sanjit
+Snehit
+Ranjeet
+Ankurjeet
+Inabat
+Sukrit
+Surajit
+Akshit
+Hershit
+Ashit
+Arihant
+Jaykant
+Tanpreet
+Davneet
+Sifat
+Varnit
+Omkant
+Navodit
+Ravinderpreet
+Prabhjot
+Puneet
+Ajeet
+Jaypreet
+Parijat
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep "^K" in.txt
+Kajal
+Krishna
+Khushi
+Kavya
+Kunal
+Kishan
+Kashish
+Keshav
+Kshitij
+Kushal
+Kaif
+Karan
+Kiran
+Kanika
+Kriti
+Kundalik
+Kirti
+Khanak
+Kritika
+Kushagra
+Khushboo
+Karishma
+Kamran
+Kamini
+Kartik
+Kartikeya
+Karthikeya
+Krishan
+Kavish
+Kalpana
+Kapil
+Kanha
+Khalid
+Kaushiki
+Kandarp
+Khansa
+Kunaal
+Kausar
+Kushan
+Kalash
+Kanchan
+Kalindi
+Kashif
+Kaushambi
+Kasturi
+Kaushik
+Kenisha
+Kasniya
+Kori
+Kalapu
+Kalyani
+Kalaivani
+Kishor
+Kishore
+Karthik
+Kaustubh
+Karthikeyan
+Kundan
+Kritagya
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep "^Kh" in.txt
+Khushi
+Khanak
+grep Yash *
+in.txtKhushboo
+Khalid
+Khansa
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep "^Ji" in.txt
+Jitendra
+Jimi
+Jivani
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep Yash *
+in.txt:Yash
+in.txt:Yashaswi
+in.txt:Yashika
+in.txt:Yashveer
+in.txt:Yashaswini
+in.txt:Yashwanth
+in.txt:Yashwant
+in.txt:Yashovardhan
+text:Yash
+guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ 
+
