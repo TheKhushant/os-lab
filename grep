@@ -1,18 +1,6 @@
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ update && upgrade
-No command 'update' found, did you mean:
- Command 'pupdate' from package 'pbuilder-scripts' (universe)
- Command 'uupdate' from package 'devscripts' (main)
- Command 'zupdate' from package 'zutils' (universe)
- Command 'lupdate' from package 'qtchooser' (main)
- Command 'xupdate' from package 'libxml-xupdate-libxml-perl' (universe)
-update: command not found
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ git
-The program 'git' is currently not installed. To run 'git' please ask your administrator to install the package 'git'
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep
-Usage: grep [OPTION]... PATTERN [FILE]...
-Try 'grep --help' for more information.
+
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep Aiea name
-grep: name: No such file or directory
+
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
 name.txt
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
