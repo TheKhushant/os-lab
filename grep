@@ -1,25 +1,16 @@
 
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep Aiea name
 
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
-name.txt
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
-name.txt
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ clear
-
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
-name.txt
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ nano text
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ ls
-name.txt  text
+
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep yash text
 yash
+
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep Aiea name.txt
 Aiea
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i tejaswini grep
-grep: grep: No such file or directory
-guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i tejaswini in.txt
+
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i yash in.txt
+output  : 
 Yash
 Suyash
 Yashaswi
@@ -30,6 +21,7 @@ Yashaswini
 Yashwanth
 Yashwant
 Yashovardhan
+
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i kamlesh in.txt
 guest-q38q5n@rcoem-lab3-06:~/Documents/khushantOSLab/GrepPractice$ grep -i tejas in.txt
 Tejas
